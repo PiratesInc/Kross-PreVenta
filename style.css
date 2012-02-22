@@ -1,0 +1,61 @@
+/* PiratesInc!
+
+Hoja de Estilos para Vendly por PiratesInc.algo
+-------------------------------------------------------------------------------*/
+@import url("css/reset.css");
+@import url("css/general.css");
+
+
+
+
+
+/* Print styles!
+-------------------------------------------------------------------------------*/
+@media print {
+
+
+
+}
+
+
+/* Media queries!
+-------------------------------------------------------------------------------*/
+
+/* Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
+@media screen and (max-device-width: 480px) {
+	
+		
+}
+
+@media all and (orientation: portrait) {
+	
+}
+
+@media all and (orientation: landscape) {
+	
+}
+
+
+/* Fonts!
+-------------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'Museo700';	
+    src: url('../fonts/Museo700-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Museo700-Regular-webfont.woff') format('woff'),
+         url('../fonts/Museo700-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Museo700-Regular-webfont.svg#webfontwI2dnCK0') format('svg');
+}
+
+@font-face {
+    font-family: 'MuseoSans500';
+    src: url('../fonts/museosans_500-webfont.eot');
+    src: url('../fonts/museosans_500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/museosans_500-webfont.woff') format('woff'),
+         url('../fonts/museosans_500-webfont.ttf') format('truetype'),
+         url('../fonts/museosans_500-webfont.svg#MuseoSans500') format('svg');
+
+}
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,400italic);
+

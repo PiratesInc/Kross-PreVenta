@@ -1,0 +1,74 @@
+
+/* hoja de estilos generales */    
+
+
+/* ! BASE STYLE ================== */
+
+body {
+	font: normal 0.75em/0.75em 'PT Sans', Tahoma, sans-serif;
+	text-align: center;
+	color: #e1ffd5;
+	background-color:#22703f;
+	background: red;
+}
+
+a {
+	color: #99BF0F;
+	text-decoration: none;
+	border:none;
+}
+
+a:hover {
+	color: #5893cc;
+	text-decoration: none;
+}
+
+p {
+	margin: 0;
+	padding: 1.1em 0;
+	font-style: normal;
+	font-size: 1em;
+	line-height: 1.1em;
+}
+
+p strong { color:#333333; }
+
+::-moz-selection
+{
+background:#8a8a8a;
+color:#fff !important;
+}
+ 
+::selection 
+{
+background:#8a8a8a;
+color:#fff !important;;
+}
+
+/* ! HEADINGS ================== */
+
+h1, h2, h3, h4, h5, h6 {
+	display:block;
+	font-family:'Museo700'; 
+	font-weight:700;
+	color:#272727;
+}
+
+h2 { font-size:2em; line-height:1.7em; }
+
+h3 { font-size:1.8em; line-height:1.4em; }
+
+h4 { font-size:1.6em; line-height:1.3em; }
+
+h5 { font-size:1.4em; line-height:1.2em; }
+
+h6 { font-size:1.2em; line-height:1.1em; }
+
+
+/* ! CONTENEDOR ================== */
+
+.wrapper { width: 520px; text-align: left; margin: 0 auto; }
+
+
+/* ! Header ================== */
+
