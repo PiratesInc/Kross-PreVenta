@@ -5,17 +5,17 @@
 /* ! BASE STYLE ================== */
 
 body {
-	font: normal 0.75em/0.75em 'PT Sans', Tahoma, sans-serif;
+	font: normal 0.75em/0.75em Helvetica, Arial, sans-serif;
 	text-align: center;
-	color: #e1ffd5;
-	background-color:#22703f;
-	background: red;
+	color: #282828;
+	background: #d1d1d1;
 }
 
 a {
 	color: #99BF0F;
 	text-decoration: none;
 	border:none;
+	cursor: pointer;
 }
 
 a:hover {
@@ -49,26 +49,102 @@ color:#fff !important;;
 
 h1, h2, h3, h4, h5, h6 {
 	display:block;
-	font-family:'Museo700'; 
+	font-family: Helvetica, Arial, sans-serif; 
 	font-weight:700;
 	color:#272727;
 }
 
-h2 { font-size:2em; line-height:1.7em; }
+h1 { font-size: 2.2em; line-height: 2em; }
 
-h3 { font-size:1.8em; line-height:1.4em; }
+h2 { font-size:1.6em; line-height:1.2em; }
 
-h4 { font-size:1.6em; line-height:1.3em; }
+h3 { font-size:1.5em; line-height:1.1em; }
 
-h5 { font-size:1.4em; line-height:1.2em; }
+h4 { font-size:1.333em; line-height:1.3em; }
 
-h6 { font-size:1.2em; line-height:1.1em; }
+h5 { font-size:1.25em; line-height:1.2em; }
+
+h6 { font-size:1.167em; line-height:1.1em; }
 
 
 /* ! CONTENEDOR ================== */
 
-.wrapper { width: 520px; text-align: left; margin: 0 auto; }
+.wrapper { width: 520px; text-align: left; margin: 0 auto; background: #fff; }
 
 
 /* ! Header ================== */
+
+header { padding: 0 10px; text-align: center; }
+
+	header h1 {  }
+
+
+/* ! Contenido ================== */
+
+section.welcome {
+
+}
+
+	section.producto img {
+		display: block;
+		width: 220px;
+		height: 180px;
+		float: left;
+		margin: 10px;
+	}
+	
+	section.producto hgroup {
+		width: 220px;
+		float: right;
+	}
+
+/* ! Formulario ================== */
+
+
+a.btn {
+	display: block;
+	clear: both;
+	width: 200px;
+	height: 50px;
+	margin: 20px auto;
+	background: #101010;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+}
+
+
+/* ! Footer ================== */
+
+footer {
+	clear: both;
+	text-align: center;
+	padding: 10px 0;
+}
+
+/* ! Overlay ================== */
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.4);
+	text-align: center;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: none;
+}
+	.overlay .mensaje {
+		width: 400px;
+		height: 200px;
+		margin-top: -100px;
+		margin-left: -200px;
+		top: 50%;
+		left: 50%;
+		background: #fff;
+		position: absolute;
+		z-index: 500;
+	}
 
