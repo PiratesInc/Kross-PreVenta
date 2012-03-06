@@ -8,19 +8,14 @@
 <!-- the "no-js" class is for Modernizr. -->
 
 <head>
-
 	<meta charset="utf-8">
-	
-	
 	<title>Kross Pre Venta Exclusiva</title>
-		
 	<link rel="stylesheet" href="style.css">
-	
 	<script src="/js/modernizr-1.7.min.js"></script>
-
 </head>
-
 <body class="inscribete">
+
+<div class="wrapper">
 
 <div class="overlay">
 	<div class="mensaje error">
@@ -35,55 +30,46 @@
 	</div>
 </div>
 
-<div class="wrapper">
-
 	<header>
-		<h1>Kross Cerveza Independiente</h1>
+		<h1>Kross - Serie Experimental</h1>
 	</header>
 	
+	<img class="kross_img" src="images/img_kross_110.png" alt="Kross 110 Pack" width="250" height="500" />
+	
 	<section class="formulario">
-		<h2>Pre Venta Exclusiva Cerveza Kross</h2>
-		<p><span>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</span></p>
-		
+		<h2>Preventa exclusiva Kross 110</h2>
+		<h3>¡Completa este formulario para reservar tu caja!</h3>
+				
 		<form>
 			<fieldset>
 				<ul class="data_input">
-					<li><input name="nombre" type="text" placeholder="ingresa tu nombre"></li>
-					<li><input name="apellidos" type="text" placeholder="ingresa tus apellidos"></li>
-					<li><input name="rut" type="text" placeholder="ingresa tu rut"></li>
-					<li><input name="email" type="email" placeholder="ingresa tu email"></li>
-					<li><input name="telefono" type="text" placeholder="ingresa tu teléfono"></li>
-					<li><input name="direccion" type="text" placeholder="ingresa tu dirección"></li>
+					<li><input name="nombre" type="text" placeholder="Nombre"></li>
+					<li><input name="apellidos" type="text" placeholder="Apellidos"></li>
+					<li><input name="rut" type="text" placeholder="Rut"></li>
+					<li><input name="email" type="email" placeholder="E-mail"></li>
+					<li><input name="telefono" type="text" placeholder="Teléfono"></li>
+					<li><input name="direccion" type="text" placeholder="Dirección"></li>
+					<li>
+						<select name="cajas" id="cajas">
+							<option value="0" selected="selected">Cantidad de Cajas</option>
+                    		<option value="1">1</option>
+		                    <option value="2">2</option>
+		                    <option value="3">3</option>
+		            	</select>
+					</li>
+					<span>Máximo 3 cajas por persona. Cajas de 24 unidades de 330 cc. STOCK LIMITADO</span>
 				</ul>
-				
 				<input type="submit" value="Enviar">
-				
 			</fieldset>
 		</form>
-
 	
 	</section>
 	
-	
-	
-	<section class="producto mini">
-		<img src="" alt="Pack Cervezas Exclusivas" />
-		<hgroup>
-			<h2>Pre Venta Exclusiva Cerveza Kross</h2>
-			<h3>Inscríbete y obtén una exclusiva promoción de cerveza Kross para ti, son solo 100 cajas</h3>
-		</hgroup>
-	</section>
-	
-	
-	<footer>
-		<div class="copyright">2012 Todos los derechos Reservados</div>
-	
-	</footer>
-
-
-
-
 </div>
+
+<footer>
+	<div class="copyright">Todos los derechos Reservados - 2012</div>
+</footer>
   
 </body>
 </html>
