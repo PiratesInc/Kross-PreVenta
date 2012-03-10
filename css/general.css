@@ -5,9 +5,9 @@
 /* ! BASE STYLE ================== */
 
 body {
-	font: normal 0.75em/0.75em Helvetica, Arial, sans-serif;
+	font: normal 0.75em/1em Helvetica, Arial, sans-serif;
 	text-align: center;
-	color: #282828;
+	color: #666;
 	background: #fff;
 }
 
@@ -18,20 +18,23 @@ a {
 	cursor: pointer;
 }
 
+
 a:hover {
 	color: #5893cc;
 	text-decoration: none;
 }
 
 p {
-	margin: 0;
-	padding: 1.1em 0;
+	margin: 1.1em 0;
 	font-style: normal;
-	font-size: 1em;
-	line-height: 1.1em;
+	font:normal 1.25em/1.333em 'TypenoksidiRegular';
 }
 
-p strong { color:#ccc; }
+span { font-family:'TypenoksidiRegular'; }
+
+input, select, textarea { font-family:'TypenoksidiRegular'; }
+
+p strong { color:#fff; font-weight:normal; }
 
 ::-moz-selection
 {
@@ -49,28 +52,38 @@ color:#fff !important;;
 
 h1, h2, h3, h4, h5, h6 {
 	display:block;
-	font-family: Helvetica, Arial, sans-serif; 
-	font-weight:700;
-	color:#CCC;
+	font-family:'DaxCompactBlack'; 
+	font-weight:normal;
+	color:#dedede;
+}
+h4, h5, h6 {
+	font-family:'TypenoksidiRegular'; 
 }
 
-h1 { font-size: 2.2em; line-height: 2em; }
+h1 { font-size: 2.6em; line-height: 2em; }
 
-h2 { font-size:1.6em; line-height:1.2em; }
+h2 { font-size:2em; line-height:1.2em; }
 
-h3 { font-size:1.5em; line-height:1.1em; }
+h3 { font-size:1.833em; line-height:1.1em; }
 
-h4 { font-size:1.333em; line-height:1.3em; }
 
-h5 { font-size:1.25em; line-height:1.2em; }
-
-h6 { font-size:1.167em; line-height:1.1em; }
 
 
 /* ! CONTENEDOR ================== */
 
-.wrapper { width: 700px; min-height:500px; padding:20px; text-align: left; margin: 30px auto; background: #151515; color:#FFF; overflow:hidden; position:relative; }
+.wrapper { 
+	width: 700px; 
+	min-height:500px; 
+	padding:20px; 
+	text-align: 
+	left; margin: 30px auto 10px; 
+	background:url(../images/wrap_bg.png) no-repeat bottom,  url(../images/wrap_black_bg.png) repeat-y center;
+	overflow:hidden; 
+	position:relative; 
+	color:#ddd;
+}
 
+body.exito .wrapper { background-image:none; }
 
 /* ! Header ================== */
 
@@ -89,32 +102,82 @@ section {
 	margin:30px 0;
 	clear:both;
 	text-align:right;
-	
-	outline:aqua 1px dashed;
 }
 
-section.welcome {
-
+section h2 {
+	padding:0 0 25px;
+	background:url(../images/sep_titulo.png) no-repeat bottom right;
 }
+
+section h3 {
+	font:normal 1.417em/1.1em 'TypenoksidiRegular';
+}
+
+section.welcome p { color:#b4975c; }
+	section.welcome p strong { color:#d9b96f; }
+
 	section.producto hgroup {
 		float: right;
 		width:100%;
 	}
 
-/* ! Formulario ================== */
+section.welcome a.btn { 
+	width:155px; 
+	height:60px; 
+	background:url(../images/btn_ingresa_bg.png) no-repeat top;
+	font:normal 2.083em/60px 'DaxCompactExtraBold';
+	color: #232323;
+}
+section.welcome a.btn:hover { background-position:bottom; }
 
+section.succes h2 { font-size: 2.083em; line-height:1.5em; }
+	section.succes h2 span { font-family:inherit; font-size:0.75em; display:block;}
+	
+section.succes h3, section.succes h4 { font-size:1.417em; line-height:1.333em; width:60%; margin:10px 0; display:inline-block; } 
+
+
+/* ! Formulario ================== */
 
 a.btn {
 	display: inline-block;
 	clear: both;
-	width: 180px;
-	height: 50px;
 	margin: 20px 0;
-	background: #e6bd00;
-	color: #111;
 	text-align: center;
-	line-height: 50px;
 }
+
+section.formulario input, section.formulario select { 
+	background:url(../images/input_bg.png) no-repeat;
+	height:25px;
+	width:245px;
+	padding:5px 10px;
+	text-align:right;
+	color:#222;
+	border:none transparent;
+	font-size:1.25em;
+	margin:3px 0;
+}
+
+section.formulario select { width:265px; height:35px; }
+
+section.formulario input:focus, section.formulario select:focus { 
+	outline:none;
+}
+
+::-webkit-input-placeholder  { color:#634d22; }
+input:-moz-placeholder { color:#634d22; }
+
+form span { width:66%; font-size:1.167em; line-height:1.167em; display:inline-block; margin:7px 0; }
+
+section.formulario input[type="submit"] {
+	width:105px;
+	height:40px;
+	background:url(../images/btn_enviar_bg.png) no-repeat;
+	margin:10px 0;
+	font:normal 1.75em/30px 'DaxCompactExtraBold';
+	color:#222;
+	text-align: center;
+}
+section.formulario input[type="submit"]:hover { background-position:bottom; }
 
 
 /* ! Footer ================== */

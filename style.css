@@ -7,8 +7,38 @@ Hoja de Estilos para Kross - Pre Venta por PiratesInc.algo
 
 
 
-
 /* Fonts!
 -------------------------------------------------------------------------------*/
 
+@font-face {
+    font-family: 'DaxCompactBlack';
+    src: url('fonts/daxcompb-webfont.eot');
+    src: url('fonts/daxcompb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/daxcompb-webfont.woff') format('woff'),
+         url('fonts/daxcompb-webfont.ttf') format('truetype'),
+         url('fonts/daxcompb-webfont.svg#DaxCompactBlack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'DaxCompactExtraBold';
+    src: url('fonts/daxcomeb-webfont.eot');
+    src: url('fonts/daxcomeb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/daxcomeb-webfont.woff') format('woff'),
+         url('fonts/daxcomeb-webfont.ttf') format('truetype'),
+         url('fonts/daxcomeb-webfont.svg#DaxCompactExtraBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TypenoksidiRegular';
+    src: url('fonts/typenoksidi-webfont.eot');
+    src: url('fonts/typenoksidi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/typenoksidi-webfont.woff') format('woff'),
+         url('fonts/typenoksidi-webfont.ttf') format('truetype'),
+         url('fonts/typenoksidi-webfont.svg#TypenoksidiRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
